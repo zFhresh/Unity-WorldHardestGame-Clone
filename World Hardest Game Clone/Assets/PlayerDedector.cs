@@ -8,7 +8,7 @@ public class PlayerDedector : MonoBehaviour
     {
         if (collision.collider.tag == "Enemy")
         {
-            Debug.Log("Your Lose");
+            transform.position = new Vector3(-10.3500004f, -0.519999981f, -0.620000005f);
         }
     }
 }
